@@ -106,12 +106,12 @@ function printTimeOnNewMinute() {
         switch (hourSecondDigit) {
             case 1:
                 // right top
-                ele = hourFirstDigitElement.children[2].children[0].children;
+                ele = hourSecondDigitElement.children[2].children[0].children;
                 ele[0].style.borderBottomColor = "black"
                 ele[1].style.backgroundColor = "black";
                 ele[2].style.borderTopColor = "black"
                 // right top
-                ele = hourFirstDigitElement.children[2].children[1].children;
+                ele = hourSecondDigitElement.children[2].children[1].children;
                 ele[0].style.borderBottomColor = "black"
                 ele[1].style.backgroundColor = "black";
                 ele[2].style.borderTopColor = "black";
