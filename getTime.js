@@ -33,6 +33,40 @@ function printTimeOnNewMinute() {
                 // arrow down
                 ele[2].style.borderTopColor = "black";
                 break;
+            case 2:
+                console.log(2);
+                // right top
+                ele = hourFirstDigitElement.children[2].children[0].children;
+                // arrow up
+                ele[0].style.borderBottomColor = "black"
+                // rectangle
+                ele[1].style.backgroundColor = "black";
+                // arrow down
+                ele[2].style.borderTopColor = "black"
+                // middle top
+                ele = hourFirstDigitElement.children[1].children[0].children;
+                ele[0].style.borderRightColor = "black"
+                ele[1].style.backgroundColor = "black";
+                ele[2].style.borderLeftColor = "black";
+                // middle middle
+                ele = hourFirstDigitElement.children[1].children[1].children;
+                ele[0].style.borderRightColor = "black"
+                ele[1].style.backgroundColor = "black";
+                ele[2].style.borderLeftColor = "black";
+                // middle bottom
+                ele = hourFirstDigitElement.children[1].children[2].children;
+                ele[0].style.borderRightColor = "black"
+                ele[1].style.backgroundColor = "black";
+                ele[2].style.borderLeftColor = "black";
+                // left bottom
+                ele = hourFirstDigitElement.children[0].children[1].children;
+                // arrow up
+                ele[0].style.borderBottomColor = "black"
+                // rectangle
+                ele[1].style.backgroundColor = "black";
+                // arrow down
+                ele[2].style.borderTopColor = "black";
+                break;
             case 0:
                 // right top
                 ele = hourFirstDigitElement.children[2].children[0].children;
@@ -81,6 +115,7 @@ function printTimeOnNewMinute() {
                 ele[0].style.borderBottomColor = "black"
                 ele[1].style.backgroundColor = "black";
                 ele[2].style.borderTopColor = "black";
+                break;
             case 2:
                 console.log(2);
                 // right top
