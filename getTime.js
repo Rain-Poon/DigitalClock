@@ -14,6 +14,7 @@ function printTimeOnNewMinute() {
         // hour first digit
         const hourFirstDigitElement = document.getElementById("hour-first-digit");
         console.log(hourFirstDigit);
+        reset(hourFirstDigitElement);
         switch (hourFirstDigit) {
             case 1:
                 // right top
